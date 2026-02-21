@@ -25,14 +25,12 @@ export default function Hero() {
     };
 
     return (
-        <section ref={containerRef} className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 overflow-hidden pt-20 pb-12">
+        <section ref={containerRef} className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 overflow-hidden pt-32 pb-6">
             {/* Decorative top-right gradient/light orb to fit Neural Studio */}
             <div className="absolute top-[-10%] right-[-5%] w-[80vw] h-[80vw] max-w-[800px] max-h-[800px] bg-blue-500/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen" />
 
             <div className="max-w-5xl relative z-10 w-full mx-auto">
-                <img src="/black-blue-logo.png" alt="OverXceed" className="h-8 md:h-10 w-auto mb-16 opacity-90" />
-
-                <h1 className="hero-text text-5xl md:text-7xl lg:text-8xl flex flex-col gap-2 mb-8 text-navy">
+                <h1 className="hero-text text-5xl md:text-7xl lg:text-8xl flex flex-col gap-2 mb-8 text-navy mt-8 md:mt-12">
                     <span className="heading-hero">You need better marketing.</span>
                     <span className="heading-display text-blue-600 pr-4">Not more of it.</span>
                 </h1>

@@ -42,12 +42,12 @@ export default function About() {
                 </div>
 
                 <h2 className="text-4xl md:text-6xl font-sans font-bold mb-8">
-                    The Feature Solo
+                    One operator. Full accountability.
                 </h2>
 
                 <p className="text-xl md:text-2xl font-serif italic text-white/80 leading-relaxed max-w-3xl border-l-2 border-blue-600 pl-8 text-left">
                     Built on 5+ years of agency experience, OverXceed delivers the senior-only advantage.
-                    No bloated account teams, no junior handoffs. Just raw capability, hyper-optimized pipelines, and a relentless focus on moving the needle.
+                    No bloated account teams, no junior handoffs. Just raw capability, hyper-optimized pipelines, and a relentless focus on execution.
                 </p>
 
             </div>

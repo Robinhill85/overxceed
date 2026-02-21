@@ -86,9 +86,12 @@ export default function Contact() {
 
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-sans font-semibold py-4 rounded-lg transition-colors flex justify-center items-center gap-2"
+                        className="w-full group relative overflow-hidden bg-navy hover:bg-navy/90 text-white font-sans font-semibold py-4 rounded-xl transition-all duration-300 flex justify-center items-center gap-2"
                     >
-                        Submit Brief
+                        <span className="relative z-10 flex items-center gap-2">
+                            Submit Brief
+                        </span>
+                        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                     </button>
                 </form>
             </div>
