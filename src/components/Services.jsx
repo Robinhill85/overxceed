@@ -6,20 +6,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 const offerings = [
     {
-        title: "Service Offering One",
-        description: "Placeholder description for the first specialized service offering."
+        title: "Brand & Messaging Strategy",
+        description: "You can't out-spend the market, but you can out-position it. We use AI-assisted research to find where your brand has an unfair advantage, then build the narrative, messaging framework, and tone of voice to own it. Fast, precise, built to last."
     },
     {
-        title: "Service Offering Two",
-        description: "Placeholder description for the second specialized service offering."
+        title: "Content & Campaign Production",
+        description: "Most AI content is obvious. Ours isn't. We build custom pipelines that produce campaign assets, copy, and creative at a scale and consistency your team can't match manually, without sacrificing the quality that makes people stop scrolling."
     },
     {
-        title: "Service Offering Three",
-        description: "Placeholder description for the third specialized service offering."
+        title: "Websites & Digital Products",
+        description: "From marketing sites to vibecoded apps and interactive tools, we design and build digital products that work as hard as your best salesperson. Delivered in days, not months."
     },
     {
-        title: "Service Offering Four",
-        description: "Placeholder description for the fourth specialized service offering."
+        title: "Growth Strategy",
+        description: "A bigger budget isn't the answer. A sharper plan is. We map your market, identify the highest-leverage moves, and hand you a roadmap you can actually execute, whether you're entering a new market or breaking through a plateau."
     }
 ];
 
