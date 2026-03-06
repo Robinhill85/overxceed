@@ -68,7 +68,7 @@ export default function Contact() {
                 setStatus('idle');
                 alert("There was an issue submitting your brief. Please try again.");
             }
-        } catch (error) {
+        } catch {
             setStatus('idle');
             alert("Network error. Please try again later.");
         }
