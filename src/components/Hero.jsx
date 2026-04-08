@@ -34,7 +34,7 @@ export default function Hero() {
                 </h1>
 
                 <p className="hero-text text-lg md:text-xl lg:text-2xl text-navy/70 max-w-2xl leading-relaxed mb-12 font-sans font-medium">
-                    We're a marketing agency built on deep knowledge of what AI can and can't do right now. Sometimes that means custom pipelines. Sometimes it means plugging the right tools into what already works. We know the difference.
+                    I'm a marketing operator built on deep knowledge of what AI can and can't do right now. Sometimes that means custom pipelines. Sometimes it means plugging the right tools into what already works. I know the difference.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
@@ -54,7 +54,7 @@ export default function Hero() {
                         onClick={scrollToWork}
                         className="hero-cta inline-flex items-center gap-2 px-6 py-4 text-navy/70 hover:text-navy font-sans font-medium transition-colors duration-300"
                     >
-                        See our work <ChevronDown className="w-5 h-5 animate-bounce" />
+                        See my work <ChevronDown className="w-5 h-5 animate-bounce" />
                     </button>
                 </div>
             </div>

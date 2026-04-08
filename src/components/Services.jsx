@@ -21,12 +21,12 @@ const offerings = [
     {
         icon: Layers,
         title: "Content & Campaign Production",
-        description: "Agentic and autonomous content systems that produce at scale without losing your voice. We build the machine, not just the output."
+        description: "Agentic and autonomous content systems that produce at scale without losing your voice. I build the machine, not just the output."
     },
     {
         icon: Monitor,
         title: "Websites, Tools & Digital Products",
-        description: "Marketing sites, dashboards, data aggregators, calculators, and custom internal tools delivered in days. If it lives in a browser and helps your business, we build it."
+        description: "Marketing sites, dashboards, data aggregators, calculators, and custom internal tools delivered in days. If it lives in a browser and helps your business, I build it."
     },
     {
         icon: TrendingUp,
@@ -62,8 +62,8 @@ export default function Services() {
         <section id="services" ref={containerRef} className="py-24 px-6 md:px-12 lg:px-24 bg-white border-t border-gray-100">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16">
-                    <p className="text-navy/60 font-mono text-sm uppercase tracking-widest mb-3">What We Do</p>
-                    <h2 className="text-3xl md:text-5xl font-sans font-bold text-navy tracking-tight">Five ways we help</h2>
+                    <p className="text-navy/60 font-mono text-sm uppercase tracking-widest mb-3">What I Do</p>
+                    <h2 className="text-3xl md:text-5xl font-sans font-bold text-navy tracking-tight">Five ways I help</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

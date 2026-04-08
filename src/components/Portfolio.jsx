@@ -83,7 +83,7 @@ export default function Portfolio() {
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16">
                     <p className="text-navy/60 font-mono text-sm uppercase tracking-widest mb-3">Selected Work</p>
-                    <h2 className="text-3xl md:text-5xl font-sans font-bold text-navy tracking-tight">Things we've built that work</h2>
+                    <h2 className="text-3xl md:text-5xl font-sans font-bold text-navy tracking-tight">Things I've built that work</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

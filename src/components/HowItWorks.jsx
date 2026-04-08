@@ -9,19 +9,19 @@ if (typeof window !== 'undefined') {
 const tiers = [
     {
         title: "AI-Native Marketing Audit",
-        description: "We map your current marketing stack, identify what AI can immediately replace or improve, and hand you a prioritised action plan.",
+        description: "I map your current marketing stack, identify what AI can immediately replace or improve, and hand you a prioritised action plan.",
         price: "Fixed fee · Delivered in 5 days",
         tags: ["Current stack assessment", "AI opportunity mapping", "Prioritised action plan", "Tool recommendations"]
     },
     {
         title: "Project-Based Build",
-        description: "You know what you need. We build it — content pipelines, campaigns, vibecoded tools, AI workflows. Scoped per brief.",
+        description: "You know what you need. I build it — content pipelines, campaigns, vibecoded tools, AI workflows. Scoped per brief.",
         price: "Project-based · Scoped per brief",
         tags: ["Content & campaign pipelines", "Vibecoded web tools", "AI workflows", "Custom builds"]
     },
     {
         title: "Retainer",
-        description: "Your embedded AI-native marketing team. Strategy and execution, weekly check-ins, continuous delivery.",
+        description: "Your embedded AI-native marketing partner. Strategy and execution, weekly check-ins, continuous delivery.",
         price: "Monthly · From $3,000/month",
         tags: ["Strategy & roadmap", "Content production", "Campaign management", "Weekly check-ins"]
     }
@@ -54,7 +54,7 @@ export default function HowItWorks() {
         <section ref={containerRef} className="py-24 px-6 md:px-12 lg:px-24 bg-gray-50 border-y border-gray-100">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16">
-                    <p className="text-navy/60 font-mono text-sm uppercase tracking-widest mb-3">How We Work</p>
+                    <p className="text-navy/60 font-mono text-sm uppercase tracking-widest mb-3">How I Work</p>
                     <h2 className="text-3xl md:text-5xl font-sans font-bold text-navy tracking-tight">Three ways to engage</h2>
                 </div>
 

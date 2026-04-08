@@ -90,7 +90,7 @@ export default function Contact() {
                             </div>
                             <h3 className="font-sans font-semibold text-2xl mb-4">Book a call</h3>
                             <p className="text-white/70 font-sans leading-relaxed mb-8">
-                                30 minutes, free. We'll diagnose where AI can move the needle for your marketing and whether we're the right fit.
+                                30 minutes, free. I'll diagnose where AI can move the needle for your marketing and whether I'm the right fit.
                             </p>
                         </div>
                         <a
@@ -108,7 +108,7 @@ export default function Contact() {
                         {status === 'success' ? (
                             <div className="bg-gray-50 p-8 md:p-10 rounded-xl border border-gray-100 h-full flex items-center justify-center">
                                 <p className="text-xl font-serif italic text-navy/80 text-center">
-                                    Brief received. We'll be in touch within 24 hours.
+                                    Brief received. I'll be in touch within 24 hours.
                                 </p>
                             </div>
                         ) : (
