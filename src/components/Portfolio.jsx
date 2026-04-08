@@ -32,11 +32,12 @@ const projects = [
         linkText: "Visit aiready.robinweb3.com"
     },
     {
-        label: "AI · Finance · Decision Support · Under NDA",
+        label: "AI · Finance · Decision Support",
         title: "AskAtlantis",
-        description: "Second-opinion engine for financial analysts comparing conventional models against LLMs. Bridges traditional finance with AI-native decision-making.",
-        tags: ["AI", "Finance", "Decision Support"],
-        confidential: true
+        description: "AI-powered stock analysis and financial research tool. Combines Claude, Perplexity, and Grok for DCF valuations, comparable analysis, earnings deep dives, and real-time sentiment — all from real market data.",
+        tags: ["AI", "Finance", "SaaS", "Decision Support"],
+        url: "https://www.askatlantis.com",
+        linkText: "Visit askatlantis.com"
     },
     {
         label: "Analytics · Dashboard · Under NDA",
