@@ -62,7 +62,7 @@ export default function About() {
 
                         <div className="space-y-5 text-white/75 font-sans text-base leading-relaxed">
                             <p>
-                                I'm a marketer who spent five years running Web3 campaigns and building growth systems the traditional way — before that, 7 years in iGaming at a FTSE 100 — then rebuilt everything from scratch when AI changed the game.
+                                I'm a marketer who spent five years running Web3 campaigns and building growth systems the traditional way — before that, 7 years in iGaming including at a FTSE 100 — now rebuilt everything from scratch when AI changed the game.
                             </p>
                             <p>
                                 I ran a Web3 marketing agency, scaled clients to 4,000% user growth, drove 22M+ impressions in a single month on X, and built tools like PostToSource and AskAtlantis to prove that AI-native marketing works in practice.
