@@ -6,6 +6,7 @@ const navLinks = [
     { label: 'Work', href: '#work' },
     { label: 'About', href: '#about' },
     { label: 'Contact', href: '#contact' },
+    { label: 'AI music', href: '/robonky/' },
 ];
 
 export default function Navbar() {
@@ -19,8 +20,9 @@ export default function Navbar() {
     }, []);
 
     const handleNavClick = (e, href) => {
-        e.preventDefault();
         setMenuOpen(false);
+        if (!href.startsWith('#')) return;
+        e.preventDefault();
         document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
     };
 
