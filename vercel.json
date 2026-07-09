@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "overxceed.com"
+        }
+      ],
+      "destination": "https://www.overxceed.com/:path*",
+      "permanent": true
+    }
+  ],
+  "framework": "nextjs"
+}

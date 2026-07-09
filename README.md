@@ -1,16 +1,50 @@
-# React + Vite
+# overxceed.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Next.js 15 (App Router, full SSG) rebuild of www.overxceed.com. The previous
+Vite SPA (which shipped an empty `<div id="root">` to crawlers) is preserved
+untouched in `legacy-vite/`.
 
-Currently, two official plugins are available:
+## Commands
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm run dev              # local dev
+npm run build            # production build (all routes static)
+npm run start            # serve the production build
+npm run validate-schema  # P1-3 JSON-LD assertions against the built HTML
+                         # (or: node scripts/validate-schema.mjs http://localhost:3000)
+```
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Route | Purpose | Indexed |
+|---|---|---|
+| `/` | Home — operator credibility, the two offers, work teaser, about, contact | yes |
+| `/local` | AI Visibility System for local businesses (Redhill · Reigate · Surrey) | yes |
+| `/operator` | 90-day AI operator engagement — pricing on request | yes |
+| `/work` | Portfolio | yes |
+| `/work/sam-barber` | DRAFT case study — publishing checklist in the page source; not linked | **noindex** |
+| `/blog` (+1 placeholder) | GEO/AI-visibility content cluster, structure only | **noindex** |
+| `/robonky` | Legacy music page, kept reachable, out of nav | **noindex** |
 
-## Expanding the ESLint configuration
+## Hard rules (Robin's rulings)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **NO public pricing anywhere.** No currency figures, no tier tables, no
+  engagement-fee "from" numbers. Sole CTA is "Book a call" (Motion). HTML
+  comments in `/local` and `/operator` mark where prices would go if the
+  ruling ever reverses. Schema uses the vague `priceRange: "££"` band only.
+- **No WhatsApp CTA** (no business WhatsApp exists). The WhatsApp booking
+  *agent* may be described as a product component.
+- Content is never `opacity: 0` pre-scroll — CSS transform-only entrance
+  animation, `prefers-reduced-motion` respected.
+- Canonical host is **www**; `vercel.json` 308s apex → www.
+
+## Ops notes
+
+- **Monthly: check the Formspree spam folder** (form `xnjbgoyd`, recipient
+  robin@overxceed.com). Bots already target the form; a real brief could be
+  misclassified. (P0-1 follow-up, 2026-07-07.)
+- Analytics: `@vercel/analytics` pageviews + custom events `brief_submit`
+  and `motion_click`. Custom events need a paid Vercel plan — on Hobby they
+  no-op harmlessly.
+- GBP setup doc (ready to paste): `docs/gbp-setup.md` — Robin executes.
+- Lighthouse snapshots: `docs/perf/*.json`.

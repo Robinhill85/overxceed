@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white: #ffffff;
+  --color-navy: #0a0f1e;
+  --color-blue: #0057ff;
+  --color-grey: #f8f9fa;
+
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), "Newsreader", ui-serif, Georgia, serif;
+  --font-mono: "SF Mono", "SFMono-Regular", ui-monospace, "Space Mono", monospace;
+
+  --radius-xl: 1rem;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0a0f1e;
+  }
+
+  html,
+  body {
+    @apply antialiased text-navy bg-white;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  /* Global noise overlay (brand texture, kept from the original build) */
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 50;
+    opacity: 0.03;
+    background: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+  }
+}
+
+.heading-display {
+  @apply font-serif italic font-medium;
+}
+
+.heading-hero {
+  @apply font-sans font-bold tracking-tight;
+}
+
+.text-data {
+  @apply font-mono text-sm uppercase tracking-wider;
+}
+
+/*
+ * Entrance motion — CSS only, transforms only.
+ * Content is NEVER at opacity: 0 before scroll; if JS or the animation
+ * fails, everything is fully visible. prefers-reduced-motion respected.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .rise-2 {
+    animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+  }
+  .rise-3 {
+    animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.24s both;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(22px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
