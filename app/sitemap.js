@@ -10,6 +10,7 @@ export default function sitemap() {
     { url: `${SITE_URL}/`, lastModified, changeFrequency: "weekly", priority: 1.0 },
     { url: `${SITE_URL}/local`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/operator`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/webinar`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/work`, lastModified, changeFrequency: "monthly", priority: 0.7 },
   ];
 }
