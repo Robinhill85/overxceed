@@ -13,9 +13,8 @@ export default function MarketInPublic() {
 
         <p className="text-navy/70 font-sans text-lg leading-relaxed mb-10 max-w-2xl">
           I co-host Market in Public with Robin Lim — a weekly LinkedIn Live
-          covering AI-native marketing, AI visibility, and what&rsquo;s
-          actually working right now. No polish. No deck. Just real work,
-          live.
+          covering AI systems, AI visibility, and what&rsquo;s actually
+          working right now. No polish. No deck. Just real work, live.
         </p>
 
         <a

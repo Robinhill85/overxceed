@@ -9,9 +9,9 @@ import { professionalServiceSchema } from "@/lib/schema";
 import { projects, ProjectCard } from "@/lib/projects";
 
 export const metadata = {
-  title: { absolute: "OverXceed | AI-Native Marketing Operator, UK" },
+  title: { absolute: "OverXceed | AI Operator Studio, UK" },
   description:
-    "AI-native marketing operator, UK. The AI Visibility System for local businesses in Redhill, Reigate and Surrey — and 90-day AI operator engagements for UK SMEs.",
+    "AI operator studio, UK. We build AI systems inside your business — in 90 days, you own them. The AI Visibility System for Redhill, Reigate and Surrey, and 90-day operator engagements for UK SMEs.",
   alternates: { canonical: "/" },
 };
 
@@ -65,20 +65,20 @@ export default function HomePage() {
 
         <div className="max-w-5xl relative z-10 w-full mx-auto">
           <p className="rise font-mono text-sm uppercase tracking-widest text-navy/70 mb-6">
-            AI-native marketing operator — UK
+            AI operator studio — UK
           </p>
           <h1 className="rise text-5xl md:text-7xl lg:text-8xl flex flex-col gap-2 mb-8 text-navy">
-            <span className="heading-hero">You need better marketing.</span>
+            <span className="heading-hero">Stop buying AI advice.</span>
             <span className="heading-display text-blue-700 pr-4">
-              Not more of it.
+              Start owning AI systems.
             </span>
           </h1>
 
           <p className="rise-2 text-lg md:text-xl lg:text-2xl text-navy/70 max-w-2xl leading-relaxed mb-12 font-sans font-medium">
-            I&rsquo;m a marketing operator built on deep knowledge of what AI
-            can and can&rsquo;t do right now. Sometimes that means custom
-            pipelines. Sometimes it means plugging the right tools into what
-            already works. I know the difference.
+            OverXceed is an AI operator studio built on deep knowledge of what
+            AI can and can&rsquo;t do right now. I embed in your business, find
+            where AI actually moves the needle, build the systems your team
+            will use every day — and hand you the keys.
           </p>
 
           <div className="rise-3 flex flex-col sm:flex-row items-start sm:items-center gap-6">

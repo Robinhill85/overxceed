@@ -47,21 +47,23 @@ export default function About() {
 
             <div className="space-y-5 text-white/80 font-sans text-base leading-relaxed">
               <p>
-                I&rsquo;m a marketer who spent five years running Web3 campaigns
-                and building growth systems the traditional way — before that,
-                7 years in iGaming including at a FTSE 100 — now rebuilt
-                everything from scratch when AI changed the game.
+                I&rsquo;m an operator who spent five years running Web3
+                campaigns and building growth systems the traditional way —
+                before that, 7 years in iGaming including at a FTSE 100 — and
+                rebuilt everything from scratch when AI changed the game.
               </p>
               <p>
                 I ran a Web3 marketing agency, scaled clients to 4,000% user
                 growth, drove 22M+ impressions in a single month on X, and
                 built tools like PostToSource and AskAtlantis to prove that
-                AI-native marketing works in practice.
+                AI-native systems work in practice — I run my own company on
+                them daily.
               </p>
               <p>
-                Now I operate as OverXceed from Surrey, UK — lean, senior-only,
-                with a network of specialist AI and marketing operators
-                I&rsquo;ve built up over years in the industry. You get one
+                Now I operate as OverXceed from Surrey, UK — lean by design.
+                One senior operator leads every engagement, drawing on a close
+                circle of specialist AI operators — design, automation,
+                engineering — built up over years in the industry. You get one
                 point of contact with access to the full stack.
               </p>
             </div>
