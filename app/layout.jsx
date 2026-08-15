@@ -22,27 +22,27 @@ const newsreader = Newsreader({
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "OverXceed | AI-Native Marketing Operator, UK",
+    default: "OverXceed | AI Operator Studio, UK",
     template: "%s | OverXceed",
   },
   description:
-    "AI-native marketing operator. The AI Visibility System for UK local businesses and 90-day AI operator engagements — built by a senior operator, not a bloated team.",
+    "AI operator studio. We build AI systems inside your business — in 90 days, you own them. The AI Visibility System for UK local businesses and 90-day operator engagements for UK SMEs.",
   alternates: { canonical: "/" },
   icons: { icon: "/favicon.png" },
   openGraph: {
     type: "website",
     url: SITE_URL,
     siteName: "OverXceed",
-    title: "OverXceed | AI-Native Marketing Operator, UK",
+    title: "OverXceed | AI Operator Studio, UK",
     description:
-      "AI-native marketing operator. The AI Visibility System for UK local businesses and 90-day AI operator engagements.",
+      "AI operator studio. We build AI systems inside your business — in 90 days, you own them.",
     images: [{ url: `${SITE_URL}/black-blue-logo.png` }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "OverXceed | AI-Native Marketing Operator, UK",
+    title: "OverXceed | AI Operator Studio, UK",
     description:
-      "AI-native marketing operator. The AI Visibility System for UK local businesses and 90-day AI operator engagements.",
+      "AI operator studio. We build AI systems inside your business — in 90 days, you own them.",
     images: [`${SITE_URL}/black-blue-logo.png`],
   },
 };

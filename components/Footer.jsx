@@ -10,8 +10,8 @@ export default function Footer() {
             OverXceed
           </span>
           <p className="text-white/60 font-sans text-sm">
-            &copy; {new Date().getFullYear()} OverXceed. Better marketing. Not
-            more of it.
+            &copy; {new Date().getFullYear()} OverXceed. Working systems. Not
+            slide decks.
           </p>
         </div>
         <nav className="flex flex-wrap justify-center gap-6" aria-label="Footer">
