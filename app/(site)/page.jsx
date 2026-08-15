@@ -68,9 +68,9 @@ export default function HomePage() {
             AI operator studio — UK
           </p>
           <h1 className="rise text-5xl md:text-7xl lg:text-8xl flex flex-col gap-2 mb-8 text-navy">
-            <span className="heading-hero">Stop buying AI advice.</span>
+            <span className="heading-hero">Stop just using AI.</span>
             <span className="heading-display text-blue-700 pr-4">
-              Start owning AI systems.
+              Start disrupting with it.
             </span>
           </h1>
 
